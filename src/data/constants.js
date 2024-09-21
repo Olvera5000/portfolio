@@ -11,12 +11,12 @@ export const Bio = {
   description:
     "Organizado y fiable, capaz de gestionar múltiples prioridades con una actitud positiva. Por otro lado, busco mantener un puesto a tiempo completo que ofrezca retos profesionales utilizando habilidades interpersonales, excelente gestión del tiempo y capacidad de resolución de problemas.",
   github: "https://github.com/olvera5000",
-  resume:
-    "https://drive.google.com/file/d/114VCAfAzAR493x16U-qGNjw-H9_pPABg/view?usp=sharing",
-  linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
-  twitter: "https://twitter.com/RishavChanda",
-  insta: "https://www.instagram.com/rishav_chanda/",
-  facebook: "https://www.facebook.com/rishav.chanda.165/",
+  /*resume:
+    "https://drive.google.com/file/d/114VCAfAzAR493x16U-qGNjw-H9_pPABg/view?usp=sharing",*/
+  linkedin: "https://www.linkedin.com/in/luis-angel-olvera-grande-885294196/",
+  //twitter: "https://twitter.com/RishavChanda",
+  //insta: "https://www.instagram.com/rishav_chanda/",
+  //facebook: "https://www.facebook.com/rishav.chanda.165/",
 };
 
 export const skills = [
