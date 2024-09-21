@@ -16,27 +16,27 @@ const Projects = ({openModal,setOpenModal}) => {
         </Desc>
         <ToggleButtonGroup >
           {toggle === 'all' ?
-            <ToggleButton active value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton active value="all" onClick={() => setToggle('all')}>Todo</ToggleButton>
             :
-            <ToggleButton value="all" onClick={() => setToggle('all')}>All</ToggleButton>
+            <ToggleButton value="all" onClick={() => setToggle('all')}>Todo</ToggleButton>
           }
           <Divider />
           {toggle === 'web app' ?
-            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton active value="web app" onClick={() => setToggle('web app')}>Páginas web</ToggleButton>
             :
-            <ToggleButton value="web app" onClick={() => setToggle('web app')}>WEB APP'S</ToggleButton>
+            <ToggleButton value="web app" onClick={() => setToggle('web app')}>Páginas web</ToggleButton>
           }
           <Divider />
           {toggle === 'android app' ?
-            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton active value="android app" onClick={() => setToggle('android app')}>Apps Nativas</ToggleButton>
             :
-            <ToggleButton value="android app" onClick={() => setToggle('android app')}>ANDROID APP'S</ToggleButton>
+            <ToggleButton value="android app" onClick={() => setToggle('android app')}>Apps Nativas</ToggleButton>
           }
           <Divider />
           {toggle === 'machine learning' ?
-            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton active value="machine learning" onClick={() => setToggle('machine learning')}>Sistemas web</ToggleButton>
             :
-            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>MACHINE LEARNING</ToggleButton>
+            <ToggleButton value="machine learning" onClick={() => setToggle('machine learning')}>Sistemas web</ToggleButton>
           }
         </ToggleButtonGroup>
         <CardContainer>
